@@ -31,4 +31,4 @@ private:
     QTimer *timer;
 };
 
-#endif // WEATHERDASHBOARD_H
+#endif 
