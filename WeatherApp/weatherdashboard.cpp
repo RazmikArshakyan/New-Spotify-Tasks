@@ -14,7 +14,6 @@ WeatherDashboard::WeatherDashboard(QWidget *parent) : QWidget(parent) {
 
     connect(fetchButton, &QPushButton::clicked, this, &WeatherDashboard::fetchWeather);
 
-    // Fetch weather every 5 minutes
     timer = new QTimer(this);
     connect(timer, &QTimer::timeout, this, &WeatherDashboard::fetchWeather);
     timer->start(5 * 60 * 1000);
