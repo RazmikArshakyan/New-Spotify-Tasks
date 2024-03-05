@@ -43,4 +43,4 @@ private:
     bool isPaused = true;
     bool isMuted = false;
 };
-#endif // MAINWINDOW_H
+#endif 
