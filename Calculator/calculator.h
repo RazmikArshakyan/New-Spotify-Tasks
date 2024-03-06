@@ -27,4 +27,4 @@ private:
     Ui::Calculator *ui;
     double calcValue = 0.0;
 };
-#endif // CALCULATOR_H
+#endif 
