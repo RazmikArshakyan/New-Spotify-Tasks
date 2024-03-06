@@ -29,6 +29,6 @@ int main() {
     std::vector<int> sortedArr = readArrayFromFile(fileName);
     for (auto num : sortedArr)
         std::cout << num << " ";
-
+    
     return 0;
 }
