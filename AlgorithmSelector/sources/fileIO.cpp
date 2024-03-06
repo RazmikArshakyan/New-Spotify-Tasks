@@ -8,7 +8,7 @@
 std::vector<int> readArrayFromFile(const std::string& fileName) {
     std::vector<int> arr;
     std::ifstream file(fileName);
-
+    
     if (file.is_open()) {
         int num;
         while (file >> num) {
