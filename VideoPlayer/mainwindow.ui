@@ -12,7 +12,7 @@
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
-  </property>
+  </property> 
   <property name="styleSheet">
    <string notr="true">background-color:rgb(19, 67, 19)</string>
   </property>
